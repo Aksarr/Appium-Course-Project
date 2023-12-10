@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="99290" started-at="2023-07-28T18:04:50 EEST" finished-at="2023-07-28T18:06:30 EEST">
+    <groups>
+    </groups>
+    <test name="End to end Framework Test" duration-ms="58272" started-at="2023-07-28T18:04:50 EEST" finished-at="2023-07-28T18:05:49 EEST">
+      <class name="ofaqa.eCommerceTC4Hybrid">
+        <test-method status="PASS" signature="ConfigureAppium()[pri:0, instance:ofaqa.eCommerceTC4Hybrid@6379eb]" name="ConfigureAppium" is-config="true" duration-ms="23864" started-at="2023-07-28T18:04:50 EEST" finished-at="2023-07-28T18:05:14 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:ofaqa.eCommerceTC4Hybrid@6379eb]" name="preSetup" is-config="true" duration-ms="680" started-at="2023-07-28T18:05:15 EEST" finished-at="2023-07-28T18:05:15 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="FillForm(java.util.HashMap)[pri:0, instance:ofaqa.eCommerceTC4Hybrid@6379eb]" name="FillForm" duration-ms="12935" started-at="2023-07-28T18:05:15 EEST" data-provider="getData" finished-at="2023-07-28T18:05:28 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Kate, country=Argentina, gender=female}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:ofaqa.eCommerceTC4Hybrid@6379eb]" name="preSetup" is-config="true" duration-ms="611" started-at="2023-07-28T18:05:28 EEST" finished-at="2023-07-28T18:05:29 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="FillForm(java.util.HashMap)[pri:0, instance:ofaqa.eCommerceTC4Hybrid@6379eb]" name="FillForm" duration-ms="19433" started-at="2023-07-28T18:05:29 EEST" data-provider="getData" finished-at="2023-07-28T18:05:48 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Alex, country=Brazil, gender=male}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ofaqa.eCommerceTC4Hybrid@6379eb]" name="tearDown" is-config="true" duration-ms="396" started-at="2023-07-28T18:05:48 EEST" finished-at="2023-07-28T18:05:49 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ofaqa.eCommerceTC4Hybrid -->
+    </test> <!-- End to end Framework Test -->
+    <test name="Error Validations Test" duration-ms="40655" started-at="2023-07-28T18:05:49 EEST" finished-at="2023-07-28T18:06:30 EEST">
+      <class name="ofaqa.eCommerceTC1">
+        <test-method status="PASS" signature="ConfigureAppium()[pri:0, instance:ofaqa.eCommerceTC1@5c33f1a9]" name="ConfigureAppium" is-config="true" duration-ms="20742" started-at="2023-07-28T18:05:49 EEST" finished-at="2023-07-28T18:06:10 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:ofaqa.eCommerceTC1@5c33f1a9]" name="preSetup" is-config="true" duration-ms="629" started-at="2023-07-28T18:06:10 EEST" finished-at="2023-07-28T18:06:10 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="FillForm_ErrorValidation()[pri:0, instance:ofaqa.eCommerceTC1@5c33f1a9]" name="FillForm_ErrorValidation" duration-ms="4227" started-at="2023-07-28T18:06:10 EEST" finished-at="2023-07-28T18:06:15 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm_ErrorValidation -->
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:ofaqa.eCommerceTC1@5c33f1a9]" name="preSetup" is-config="true" duration-ms="597" started-at="2023-07-28T18:06:15 EEST" finished-at="2023-07-28T18:06:15 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="FillForm_PositiveFlow()[pri:0, instance:ofaqa.eCommerceTC1@5c33f1a9]" name="FillForm_PositiveFlow" duration-ms="14088" started-at="2023-07-28T18:06:15 EEST" finished-at="2023-07-28T18:06:29 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm_PositiveFlow -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ofaqa.eCommerceTC1@5c33f1a9]" name="tearDown" is-config="true" duration-ms="368" started-at="2023-07-28T18:06:29 EEST" finished-at="2023-07-28T18:06:30 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ofaqa.eCommerceTC1 -->
+    </test> <!-- Error Validations Test -->
+  </suite> <!-- Suite -->
+</testng-results>
